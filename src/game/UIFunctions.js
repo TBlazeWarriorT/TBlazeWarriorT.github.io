@@ -572,7 +572,7 @@ define(['ash',
 			getGameInfoDiv: function () {
 				var html = "";
 				html += "<span id='changelog-version'>version " + GameGlobals.changeLogHelper.getCurrentVersionNumber() + "<br/>updated " + GameGlobals.changeLogHelper.getCurrentVersionDate() + "</span>";
-				html += "<p>Note that this game is still in development and many features are incomplete and unbalanced. Updates might break saves. Feedback and bug reports are appreciated!</p>";
+				html += "<p>Note that this game is still in development and many features are incomplete and unbalanced. Updates might break saves. Feedback and bug reports are appreciated!<p>TBlazeWarriorT was here.</p></p>";
 				html += "<p>Feedback:<br/>" + GameConstants.getFeedbackLinksHTML() + "</p>";
                 html += "<p>More info:<br/><a href='faq.html' target='faq'>faq</a> | <a href='changelog.html' target='changelog'>changelog</a></p>";
 				return html;
